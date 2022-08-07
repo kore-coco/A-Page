@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   /* list-style: none;*/
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(to right,#7ee986, rgb(107, 204, 221), #7ee986);
+}
+.head{
+    text-align: center;
+    background: rgba(182, 222, 235, 0.548);
+    padding:1rem 0 1rem 0 ;
+}
+.make{
+    font-weight: 500;
+}
+span{
+    color: #fff;
+    font: 1rem ;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 2.5rem 0;
+}
+img{
+   width: 30%;
+   height: 20rem;
+}
+.second{
+    background: rgba(182, 222, 235, 0.548);
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+.topic{
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    font-size:1rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    padding: 0 2rem 0 2rem;
+    list-style-type:armenian;
+}
+.quote{
+    padding: 1.5rem 0 1rem 0;
+    text-align: center;
+    font-size:1.3rem;
+    font-weight: 600;
+}
+.quotename{
+    font-style: italic;
+}
+footer{
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    font-size:1.2rem;
+    font-weight: 600;
+}
+@media screen and(max-width:400px) {
+    img{
+        width: 60%;
+        height: 12rem;
+     }
+}
+@media (max-width:600px) {
+    img{
+        width: 60%;
+        height: 15rem;
+     }
+}
+@media (max-width:800px) {
+    img{
+        width: 60%;
+        height: 17rem;
+     }
+}
+@media (max-width:1199px) {
+    img{
+        width: 60%;
+        height: 22rem;
+     }
+}
+@media (min-width:1200px) {
+    img{
+        width: 60%;
+        height: 25rem;
+     }
+}
