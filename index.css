@@ -70,7 +70,7 @@ footer{
 }
 @media screen and(max-width:400px) {
     img{
-        width: 60%;
+        width: 70%;
         height: 10rem;
      }
      .quote, footer{
