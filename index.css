@@ -32,6 +32,8 @@ img{
    width: 30%;
    height: 20rem;
    object-fit: cover;
+   border: 0.2rem solid #000;
+   border-radius: 25px;
 }
 .second{
     background: rgba(182, 222, 235, 0.548);
