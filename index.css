@@ -68,7 +68,10 @@ footer{
 @media screen and(max-width:400px) {
     img{
         width: 60%;
-        height: 12rem;
+        height: 10rem;
+     }
+     .quote, footer{
+        font-size: 1rem;
      }
 }
 @media (max-width:600px) {
